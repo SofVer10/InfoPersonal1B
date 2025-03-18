@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Accordion from './components/accordion'
+import Sofia from './components/sofia'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,8 +11,29 @@ function App() {
     <>
       <h1>Información Personal :)</h1>
 
-<Accordion/>
+
+<Sofia
+nombre={"Sofia Palacios Lara"}
+edad= {"18 añitos"}
+especialidad={"Software"}
+direccion={"San Salvador Este"}
+codigo={"20230106"}
+fechaNacimiento={"18/10/2006"}
+
+
+
+
+
+/>
+
+
+
+
+
+
+
     </>
+    
   )
 }
 
